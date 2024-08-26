@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN Landing Page</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        /* Header */
+        header {
+            background-color: #fff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .header-logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .header-nav {
+            font-size: 1em;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background-image: url('hbg.png'); /* Replace with the actual path to your image */
+            background-size: cover; /* Ensures the image covers the entire section */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            height: 100vh; /* Full viewport height */
+            display: flex; /* Allows for easy centering of content */
+            flex-direction: column; /* Aligns content vertically */
+            justify-content: center; /* Centers content vertically */
+            align-items: center; /* Centers content horizontally */
+            color: #fff; /* White text color to stand out against the background */
+            text-align: center; /* Center-aligns the text */
+        }
+        
+        .hero h1 {
+            font-size: 3rem; /* Adjust the font size as needed */
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        
+        .cta-button {
+            background-color: #00b49d; /* Change to your desired button color */
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+        
+        .cta-button:hover {
+            background-color: #009688; /* Darker shade for hover effect */
+        }
+        
+       
+        
+        /* Features Section */
+        .features {
+            padding: 50px 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .feature {
+            text-align: center;
+            width: 30%;
+        }
+        .feature img {
+            max-width: 100%;
+            height: auto;
+        }
+        .feature h2 {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        .feature p {
+            font-size: 1em;
+            margin: 10px 0;
+            color: #666;
+        }
+
+        /* Additional Features */
+        .additional-features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+        .additional-feature {
+            text-align: center;
+            width: 30%;
+        }
+        .additional-feature img {
+            max-width: 50px;
+            margin-bottom: 15px;
+        }
+        
+        /* Footer Section */
+        .footer {
+            background-image: url('footer.png'); /* Replace with the actual path to your footer background image */
+            background-size: cover; /* Ensures the background image covers the entire footer */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            padding: 50px 20px; /* Adjusts the padding for the footer */
+            text-align: center; /* Centers the text */
+            color: #333; /* Text color (adjust based on your background image) */
+            font-size: 1.2rem; /* Adjusts the font size */
+        }
+        
+        .footer p {
+            margin: 10px 0; /* Adds spacing between the paragraphs */
+        }
+        
+        
+        .footer p {
+            font-size: 1.2em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logo">ExpressVPN</div>
+        <div class="header-nav">English</div>
+        <div class="header-nav">Download VPN</div>
+        <div class="header-nav">My Account</div>
+
+    </header>
+    
+    <div class="hero">
+        
+        <h1>The VPN that just works</h1>
+        <p>Go further with the #1 trusted leader in VPN</p>
+        <a href="#" class="cta-button">Get ExpressVPN</a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="feature.png" alt="Secure access">
+            <h2>Secure access, worldwide</h2>
+            <p>A VPN, or virtual private network, is a secure tunnel between your device and the internet. VPNs protect you from snooping, interference, and censorship.
+
+                As you connect to a secure VPN server, your internet traffic goes through an encrypted tunnel that nobody can see into—including hackers, governments, and your internet service provider.
+                Connect reliably from anywhere, to anywhere.</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.png" alt="One click to a safer internet">
+            <h2>One click to a safer internet</h2>
+            <p>Going online doesn't have to mean being exposed. Changing your IP address with a VPN helps shield your identity from websites, apps, and services that want to track you. Good VPNs also prevent your internet provider, mobile carrier, and anyone else who may be listening from seeing your activity, thanks to a layer of strong encryption</p>
+        </div>
+        <div class="feature">
+            <img src="feature3.png" alt="ExpressVPN on every device">
+            <h2>Use ExpressVPN on every device</h2>
+            <p>Phone, tablet, computer—no matter where you are. Using a VPN protects you from security breaches in many forms, including packet sniffing, rogue Wi-Fi networks, and man-in-the-middle attacks. Travelers, remote workers, and all kinds of on-the-go individuals use a VPN whenever they’re on an untrusted network like free public Wi-Fi.</p>
+        </div>
+    </div>
+
+    <div class="additional-features">
+        <div class="additional-feature">
+            <img src="icon1.png" alt="Stronger data protection">
+            <h3>Stronger data protection</h3>
+            <p>Take charge of your online privacy and security.</p>
+        </div>
+        <div class="additional-feature">
+            <img src="icon2.png" alt="Works seamlessly">
+            <h3>Works seamlessly everywhere</h3>
+            <p>Experience the internet the way it's meant to be.</p>
+        </div>
+        <div class="additional-feature">
+            <img src="icon3.png" alt="Lightning-fast connectivity">
+            <h3>Lightning-fast connectivity</h3>
+            <p>Our VPN network is built for speed, powered by next-generation technology.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Ultra-fast servers around the globe</p>
+        <p>160 locations in 94 countries</p>
+    </footer>
+</body>
+</html>
